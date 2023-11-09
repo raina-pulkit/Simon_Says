@@ -33,6 +33,15 @@ function startGame(){
             gamePlaying();
         }
     });
+
+    $(document).click(function (){
+        if(!state){
+            seq = [];
+            lvl = 0;
+            state = true;
+            gamePlaying();
+        }
+    });
 }
 
 function randomGen(){
