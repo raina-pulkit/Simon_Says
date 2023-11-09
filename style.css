@@ -87,3 +87,8 @@ h1{
 
 
 }
+
+input{
+    background: transparent;
+    border: none;
+}
