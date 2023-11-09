@@ -34,14 +34,14 @@ function startGame(){
         }
     });
 
-    $(document).click(function (){
-        if(!state){
-            seq = [];
-            lvl = 0;
-            state = true;
-            gamePlaying();
-        }
-    });
+    // $(document).click(function (){
+    //     if(!state){
+    //         seq = [];
+    //         lvl = 0;
+    //         state = true;
+    //         gamePlaying();
+    //     }
+    // });
 }
 
 function randomGen(){
